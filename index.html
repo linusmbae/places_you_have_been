@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>places you've been</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+        <div class="container">
+              <h1>
+                  Places You've Been
+              </h1>
+              <div class="row">
+                    <div class="col-mid-6">
+                      <div class="jumbotron">
+                        <form id="form" action="index.html" method="post" >
+                              <input id="name" type="text" name="" value="" placeholder="Name"> <br> <br>
+                              <input id="place" type="text" name="" value="" placeholder="Place you've been">
+                              <br><br>
+                              <button class="btn-primary" type="submit" name="button">Submit</button>
+                        </form>
+                        <br>
+                        <div>
+                          <h3>
+                              Places visited recently:
+                          </h3>
+                          <ul id="places">
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                          <div id="show">
+                            <h1 id="head"></h1>
+                            <h1 id="tail"></h1>
+
+                          </div>
+                    </div>
+              </div>
+        </div>
+  </body>
+</html>
